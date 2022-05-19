@@ -79,7 +79,8 @@ PRODUCT_PACKAGES += \
     SettingsResTarget \
     SystemUIResTarget \
     LunaaNfcOverlay \
-    LunaaWifiResTarget
+    LunaaWifiResTarget \
+    PixelSetupWizardResTarget
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
