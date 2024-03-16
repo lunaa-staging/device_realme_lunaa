@@ -80,6 +80,3 @@ echo deep > /sys/power/mem_sleep
 
 # CPU Input boost
 echo 200 > /sys/devices/system/cpu/cpu_boost/input_boost_ms
-
-# SSG
-echo 25 > /dev/blkio/background/blkio.ssg.max_available_ratio
