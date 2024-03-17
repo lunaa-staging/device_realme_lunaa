@@ -43,6 +43,7 @@ BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 10196353024 # BOARD_SUPER_PARTITION_SIZ
 BOARD_SUPER_PARTITION_SIZE := 10200547328
 
 # Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/properties/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
 
 # SELinux - Include additional tree-specific rules
